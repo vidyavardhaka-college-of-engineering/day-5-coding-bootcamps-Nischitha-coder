@@ -2,18 +2,22 @@
 //Input: vvce & Output: ecvv
 
 #include<stdio.h>
-
+#include<string.h>
 int main()
 {
-	char str[10],str1[10];
-  int i=0, length;
+	char str[10],temp=0;
+  int i=0,j;
   printf("Enter a word\n");
 	scanf("%s", str);
-  length=strlen()
+  j=strlen(str)-1;
+  while(i<j)
   {
-    str1[i]=str[i];
+    temp=str[i];
+    str[i]=str[j];
+    str[j]=temp;
+    i++;j--;
   }
-  printf("The ")
+  printf("The reverse of the word: %s",str);
 
 	//Write your code here
 
