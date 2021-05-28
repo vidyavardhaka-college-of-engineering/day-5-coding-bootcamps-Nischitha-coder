@@ -5,8 +5,15 @@
 
 int main()
 {
-	char str[10];
+	char str[10],str1[10];
+  int i=0, length;
+  printf("Enter a word\n");
 	scanf("%s", str);
+  length=strlen()
+  {
+    str1[i]=str[i];
+  }
+  printf("The ")
 
 	//Write your code here
 
